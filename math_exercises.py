@@ -65,3 +65,33 @@ def calculate_cathetus_length(a: int, c: int) -> float:
     """Return the length of cathetus when the lengths of the second cathetus and hypotenuse are given."""
     b = math.sqrt(c ** 2 - a ** 2)
     return b
+
+# 11
+
+seconds = 29292
+minutes = seconds // 60
+hours = minutes // 60
+minutes = minutes % 60
+print(f"{seconds} sekundit on {hours} tund(i) ja {minutes} minut(it).")
+
+# 12
+
+angle = 30
+sine = math.sin(math.radians(angle))
+sine = round(sine, 1)
+cosine = math.cos(math.radians(angle))
+cosine = round(cosine, 1)
+print(f"Nurk: {angle}, siinus: {sine}, koosinus: {cosine}.")
+
+# 13
+
+n = 5
+lots_of_heys = n * "Hey"
+print(lots_of_heys)
+
+# 14
+
+num_a = 5
+num_b = 3
+string_numbers = str(num_a) + str(num_b)
+print(string_numbers)
